@@ -1,0 +1,17 @@
+# Universal Windows Platform
+    
+# Build a Universal Windows Platform project using Visual Studio.
+# Add steps that test and distribute an app, save build artifacts, and more:
+# https://aka.ms/yaml
+
+trigger:
+- master
+
+pool:
+  vmImage: 'windows-latest'
+
+- task: CMake@1
+  inputs:
+    cmakeArgs: 
+    runInsideShell: true
+
