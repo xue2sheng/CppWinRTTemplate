@@ -1,6 +1,5 @@
 ﻿#pragma once
 
-#include <iostream>
 #include <windows.ui.composition.interop.h>
 #include <ShellScalingAPI.h>
 #include <DispatcherQueue.h>

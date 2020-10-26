@@ -13,46 +13,6 @@
       "intelliSenseMode": "windows-msvc-x64",
       "variables": [
         {
-          "name": "CMAKE_CONFIGURATION_TYPES",
-          "value": "Release",
-          "type": "STRING"
-        },
-        {
-          "name": "CMAKE_EXE_LINKER_FLAGS_RELEASE",
-          "value": "/INCREMENTAL:NO",
-          "type": "STRING"
-        },
-        {
-          "name": "CMAKE_C_FLAGS",
-          "value": "/DWIN32 /D_WINDOWS /W3",
-          "type": "STRING"
-        },
-        {
-          "name": "CMAKE_CXX_FLAGS",
-          "value": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc",
-          "type": "STRING"
-        },
-        {
-          "name": "CMAKE_EXE_LINKER_FLAGS",
-          "value": "/machine:x64",
-          "type": "STRING"
-        },
-        {
-          "name": "CMAKE_CXX_STANDARD_LIBRARIES",
-          "value": "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
-          "type": "STRING"
-        },
-        {
-          "name": "CMAKE_RC_COMPILER",
-          "value": "rc",
-          "type": "FILEPATH"
-        },
-        {
-          "name": "CMAKE_RC_FLAGS",
-          "value": "-DWIN32",
-          "type": "STRING"
-        },
-        {
           "name": "CMAKE_VERBOSE_MAKEFILE",
           "value": "True",
           "type": "BOOL"
