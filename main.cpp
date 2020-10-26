@@ -101,8 +101,6 @@ struct Window : DesktopWindow<Window>
 
     LRESULT MessageHandler(UINT const message, WPARAM const wparam, LPARAM const lparam) noexcept
     {
-        // TODO: handle messages here...
-
         return base_type::MessageHandler(message, wparam, lparam);
     }
 

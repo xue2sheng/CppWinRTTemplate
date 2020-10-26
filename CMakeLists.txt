@@ -1,11 +1,7 @@
-﻿# CMakeList.txt : CMake project for BasicWindows001, include source and define
-# project specific logic here.
-#
-cmake_minimum_required (VERSION 3.8)
+﻿cmake_minimum_required (VERSION 3.8)
 
 project ("CppWinRTTemplate")
 
-# Add source to this project's executable.
 set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} /SUBSYSTEM:WINDOWS")
 add_executable (${CMAKE_PROJECT_NAME} "main.cpp" "pch.h")
 target_precompile_headers(${CMAKE_PROJECT_NAME} PUBLIC pch.h)
