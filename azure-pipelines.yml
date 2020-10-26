@@ -10,6 +10,7 @@ pool:
 steps:
 - task: CMake@1
   inputs:
-    cmakeArgs: 
+    workingDirectory: 'build'
+    cmakeArgs: '-G "Visual Studio 16 2019" -A x64  -DCMAKE_CONFIGURATION_TYPES:STRING="Release" -DCMAKE_VERBOSE_MAKEFILE:BOOL="True"  ..'
     runInsideShell: true
 
